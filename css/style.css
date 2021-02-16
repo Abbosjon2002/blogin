@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 100%;
+}
+
+body{
+	color: #606060;
+	font-family: 'Open Sans', Sans-serif;
+	font-size: 1em;
+	min-height: 100%;
+	/*text-align: center;*/
+}
+
+a, a:visited{
+	color: #339933;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #339933;
+	text-decoration: none;
+}
+
+a:focus, a:active{
+	color: #c83867;
+	text-decoration: underline;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+
+img{
+	max-width: 100%;
+}
+
+.clr{
+	clear: both;
+}
+
+.clearfix:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*bazoviy nastroyki*/
+
+header{
+	background: #292929;
+	overflow: hidden;
+}
+	.center-block-main{
+		margin: 0 auto;
+		max-width: 990px;
+	}
+
+	.logo{
+		float: left;
+	}
+
+	.menu{
+		float: right;
+	}
+
+	.menu li{
+		float: right;
+		font-weight: 600;
+		list-style: none;
+	}
+
+	.menu li a{
+		color: white;
+		text-decoration: none;
+		padding: 50px 35px;
+		display: block;
+
+	}
+
+	.menu li a:hover{
+		color: #339933;
+		padding-bottom:3px solid #58c93a; 
+	}
